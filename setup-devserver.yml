@@ -5,7 +5,7 @@
   sudo: True
   vars: 
      #nginx 
-     connections: "800"
+     connections: "400"
 
      #mysql
      bind_address: "127.0.0.1" 
