@@ -6,7 +6,7 @@
 
   vars:
      #workers: use at template ansible_processor_count 
-     connections : "1024"
+     connections : "512"
 
      is_10_up: "'$ansible_distribution_version' >= '10.04'"
      is_ubuntu: "'$ansible_distribution' == 'Ubuntu'"
